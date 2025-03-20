@@ -43,5 +43,5 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 This project is open-source under the MIT License.
 
 ## Contact
-For any queries, contact [Your Name] at [Your Email].
+For any queries, contact Omkar Bhandavalakar at omkarbhadnavalakar@gmail.com.
 
