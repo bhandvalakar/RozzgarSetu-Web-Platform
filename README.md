@@ -1,70 +1,97 @@
 # RozzgarSetu-Web-Platform
 
-# RozzgarSetu
+Overview
+RozzgarSetu is a web-based platform designed to connect farmers with daily wage workers in rural areas. The platform addresses the challenges faced by farmers in finding labor and by workers in securing consistent job opportunities. By providing a seamless interface for workers to register their availability and for farmers to search for labor, RozzgarSetu aims to enhance productivity, promote economic stability, and improve livelihoods in rural communities.
 
-RozzgarSetu is an innovative web application designed to revolutionize job search and employment solutions by leveraging AI-driven recommendations, skill-based matching, and user-friendly interaction. It connects job seekers with recruiters, offering a seamless hiring experience with a focus on skill development and career growth.
+Features
+Worker Registration: Workers can register by providing details such as name, phone number, address, Aadhaar number, and preferred work location.
 
-## 🚀 Features
+Daily Availability Update: Workers can update their daily availability, ensuring that farmers have access to the most current information.
 
-### 🔍 **For Job Seekers:**
-- AI-powered job recommendations based on skills and experience.
-- Resume parsing and job-matching algorithm.
-- Personalized job alerts and notifications.
-- Profile optimization for better visibility.
-- Online skill assessment tests.
+Farmer Access: Farmers can view a list of available workers based on location and profession.
 
-### 👨‍💼 **For Recruiters:**
-- AI-based candidate matching.
-- Smart filtering based on skills, experience, and preferences.
-- Job posting dashboard with insights.
-- Direct messaging with candidates.
+User-Friendly Interface: Built with HTML, CSS, and PHP, the platform offers an intuitive and easy-to-use interface.
 
-### 📊 **Additional Features:**
-- Career guidance and blog section for job seekers.
-- Secure authentication system (Signup/Login, Google OAuth, etc.).
-- Real-time job analytics and trends.
-- Community discussions for networking.
+Robust Backend: A relational database ensures accurate record management and efficient matching of workers with farming opportunities.
 
-## 📌 Tech Stack
-- **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** Firebase/Auth0
-- **Cloud & Hosting:** AWS/GCP
-- **AI/ML Integration:** Python, TensorFlow (for job recommendations)
+Technologies Used
+Frontend: HTML, CSS
 
-## 🎯 How to Get Started
+Backend: PHP
 
-### Prerequisites
-- Install [Node.js](https://nodejs.org/)
-- Install [MongoDB](https://www.mongodb.com/)
+Database: MySQL (or any relational database)
 
-### Setup Guide
-```sh
-# Clone the repository
-git clone https://github.com/yourusername/RozzgarSetu.git
+Version Control: Git
+
+Installation and Setup
+Clone the Repository:
+
+bash
+Copy
+git clone https://github.com/your-username/RozzgarSetu.git
 cd RozzgarSetu
+Set Up the Database:
 
-# Install dependencies
-npm install
+Import the provided SQL file into your MySQL database.
 
-# Start the backend server
-npm run server
+Update the database connection details in the config.php file.
 
-# Start the frontend
-npm start
-```
+Configure the Web Server:
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Ensure you have a web server (e.g., Apache) with PHP support.
 
-## 🤝 Contributing
-We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Place the project files in the web server's root directory.
 
-## 📬 Contact
-For queries, feel free to reach out:
-- **Website:** [TechNexusHelp](https://technexushelp.com)
-- **Email:** support@technexushelp.com
-- **LinkedIn:** [Omkar Mahadev Bhandavalakar](https://www.linkedin.com/in/yourprofile)
+Access the Application:
 
-Let's bridge the gap between talent and opportunities with **RozzgarSetu**! 🚀
+Open your web browser and navigate to http://localhost/RozzgarSetu.
+
+Usage
+For Workers:
+
+Register on the platform by providing your details.
+
+Update your daily availability to ensure farmers can find you.
+
+For Farmers:
+
+Search for available workers based on location and profession.
+
+Contact workers directly through the provided contact information.
+
+Contributing
+We welcome contributions to the RozzgarSetu project! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+
+Fork the Repository:
+
+bash
+Copy
+git clone https://github.com/your-username/RozzgarSetu.git
+cd RozzgarSetu
+Create a New Branch:
+
+bash
+Copy
+git checkout -b feature/your-feature-name
+Commit Your Changes:
+
+bash
+Copy
+git commit -m "Add your commit message here"
+Push to the Branch:
+
+bash
+Copy
+git push origin feature/your-feature-name
+Open a Pull Request: Go to the GitHub repository and open a pull request with a detailed description of your changes.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Acknowledgments
+Special thanks to all contributors who have helped in the development of RozzgarSetu.
+
+Inspired by the need to bridge the gap between labor demand and supply in rural areas.
+
+Contact
+For any inquiries or support, please contact [Your Name] at [your-email@example.com].
